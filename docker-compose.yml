@@ -4,7 +4,7 @@ services:
             context: .
         container_name: "news_web"
         restart: always
-        command: bash ./entrypoint.sh
+        command: bash entrypoint.sh
         volumes:
             - ./static:/usr/src/app/static
         ports:
