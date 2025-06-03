@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 ENV PYTHONDONTWRITENYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
-COPY requirements.txt /urs/src/app
+COPY requirements.txt /usr/src/app
 
 RUN python -m pip install gunicorn
 RUN python -m pip install -U pip
